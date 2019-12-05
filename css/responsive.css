@@ -1,0 +1,246 @@
+/* xlg */
+@media (min-width: 1200px) {
+  
+}
+
+/* lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Skills Section */
+  .rating-item-title {
+    font-size: 0.8rem;
+  }
+
+  /* Portfolio Section */
+  .portfolio-item {
+    margin: 0px 15px 0px 15px!important;
+  }
+
+  .portfolio-info {
+    padding-left: 40px;
+  }
+
+  .portfolio-info > h3, .portfolio-info > p {
+    font-size: 2rem!important;
+  }
+
+
+  /* footer */
+  footer > p {
+    font-size: 1.5rem!important;   
+  }
+}
+
+/* md */
+@media (min-width: 768px) and (max-width: 991px) {
+  .top-container {
+		height: 500px;
+  }
+  
+  .section-padding {
+		padding-top: 30px;
+		padding-bottom: 50px;
+  }
+  
+  /* Skills Section */
+  .rating-item-title {
+    font-size: 0.6rem;
+  }
+  
+  /* Portfolio Section */
+  .portfolio-item {
+    margin: 0px 10px 0px 10px!important;
+  }
+
+  .portfolio-info {
+    padding-left: 30px;
+  }
+
+  .portfolio-info > h3, .portfolio-info > p {
+    font-size: 1.5rem!important;
+  }
+
+  /* Resume Section */
+  .resume-content h5 {
+    font-size: 1rem;
+  }
+
+  .resume-content h6, .resume-content p, .resume-content li {
+    font-size: 0.9rem;
+  } 
+
+  /* footer */
+  footer > p {
+    font-size: 1rem!important;   
+  }
+}
+
+/* sm */
+@media (min-width: 576px) and (max-width: 767px) {
+  .top-container {
+		height: 400px;
+  }
+
+  .section-padding {
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  /* main page */
+  .item-title {
+    text-align: center!important;
+  }
+  
+  /* goal section */
+  .goal-item {
+    margin : 20px 20px 0px 20px;
+  }
+
+  /* Skills Section */
+  .rating-item {
+    padding: 0px;
+  }
+
+  .rating-item-title, .rating-item-percentage, .rating-progress {
+    margin: 0px!important;
+  }
+
+  /* Portfolio Section */
+  .portfolio-info {
+    padding-left: 40px;
+  }
+
+  /* Resume Section */
+  .resume-content h5 {
+    font-size: 0.9rem;
+  }
+
+  .resume-content h6, .resume-content p, .resume-content li {
+    font-size: 0.8rem;
+  } 
+
+   /* Contact Section */
+   .input-phone {
+    margin-top: 18px;
+  }
+}
+
+/* xsm */
+@media (max-width: 575px) {
+  .top-container {
+		height: 320px;
+  }
+  
+  .section-padding {
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .section-title {
+    font-size: 3rem;
+  }
+
+  .section-sub-title {
+    font-size: 1.5rem;
+  }
+
+  /* main page */
+  .item-title {
+    text-align: center!important;
+  }
+  
+  /* goal section */
+  .goal-item {
+    margin : 20px 20px 0px 20px;
+  }
+
+  /* Skills Section */
+  .rating-item {
+    padding: 0px;
+  }
+
+  .rating-item-title, .rating-item-percentage, .rating-progress {
+    margin: 0px!important;
+    font-size: 0.8rem;
+  }
+
+  /* Portfolio Section */
+  .portfolio-info {
+    padding-left: 40px;
+  }
+
+  .portfolio-info > h3, .portfolio-info > p {
+    font-size: 1.5rem!important;
+  }
+
+  /* Resume Section */
+  .resume-content h5 {
+    font-size: 0.9rem;
+  }
+
+  .resume-content h6, .resume-content p, .resume-content li {
+    font-size: 0.8rem;
+  } 
+
+   /* Contact Section */
+  .input-phone {
+    margin-top: 18px;
+  }
+
+  .contact-section h3 {
+    font-size: 1.5rem
+  }
+
+  .contact-section h4 {
+    font-size: 1.2rem
+  }
+
+  #contact-button {
+    min-width: 100%;
+  }
+
+  /* footer */
+  footer > p {
+    font-size: 1rem!important;   
+  }
+}
+
+/* xs portrait */
+@media (max-width: 496px) {
+  .top-container {
+    display: none;
+  }
+
+  .rating-item-title {
+    font-size: 0.5rem;
+  }
+
+  /* Portfolio Section */
+  .portfolio-info {
+    padding-left: 30px;
+  }
+
+  .portfolio-info > h3, .portfolio-info > p {
+    font-size: 1.3rem!important;
+  }
+
+  /* Resume Section */
+  .resume-content h5 {
+    font-size: 0.7rem;
+  }
+
+  .resume-content h6, .resume-content p, .resume-content li {
+    font-size: 0.6rem;
+  } 
+
+  /* Contact Section */
+  #submit-message h5{
+    padding-right: 16px;
+  }
+
+  /* footer */
+  footer > p {
+    font-size: 0.7rem!important;   
+  }
+}

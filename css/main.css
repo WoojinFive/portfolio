@@ -1,0 +1,345 @@
+/* Global Style */
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #5a5a5a;
+  line-height: 1.15;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:normal;
+  color: #5a5a5a;
+  padding-top: 48px;
+  padding-bottom: 3.2px;
+  overflow-x:hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+footer, header, nav {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #2d3038;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+a{
+  color: #2d3038;
+}
+
+a:hover {
+  color: #00aeef;
+}
+
+a, a:hover, a:active,
+a:focus, button:focus, .btn:focus,
+.form-control:focus {
+  outline: none !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+img {
+  border-style: none;
+  margin-bottom: 30px;
+}
+
+button, input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+/* Navbar */
+.navbar-color {
+  background-color: #292b2c!important;
+}
+.navbar-toggler-right{
+  position:absolute;right:1rem
+}
+.nav-link {
+  color: rgba(255,255,255,.5);
+}
+.navbar-toggler {
+  border-color: rgba(255,255,255,.1);
+}
+
+/* top-container */
+.top-container {
+  height: 640px;
+  background-color: #777;
+  background-image: url(../img/main_bg.jpg);
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+/* feature */
+.feature-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.feature-divider-none {
+  margin-top: 0;
+  margin-bottom: 80px;
+  border: 0;
+  border-top: 1px solid #fff
+}
+
+.footer-divider {
+  margin-top: 80px;
+  margin-bottom: 16px;
+}
+
+/* color */
+.yellow{
+	color: rgb(244,191,0);
+}
+.yellowOrange{
+	color: rgb(247,148,29);
+}
+
+.orange{
+	color: rgb(242,101,34);
+}
+
+.red{
+	color: rgb(237,28,36);	
+}
+
+.redPink{
+	color: rgb(255,3,55);
+}
+
+.pink{
+	color: rgb(185,1,98);
+}
+
+.purple{
+	color: rgb(135,62,149);	
+}
+
+.blue{
+	color: rgb(60,112,180);
+}
+
+.greenBlue{
+	color: rgb(5,172,128);	
+}
+
+.green{
+	color: rgb(135,192,94);	
+}
+
+.font-white {
+  color: #fff;
+}
+
+/* common class */
+.section-title {
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section-sub-title {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* main page */
+/* goals section */
+.goals-section .goal-item {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.goals-section .goal-item p {
+
+  margin-bottom: 0;
+}
+
+/* skills section */
+.progress-content {
+  overflow: hidden;
+}
+
+.rating-item-title {
+  display: inline-block;
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #2d3038;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.rating-item-percentage {
+  max-width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #2d3038;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  float: right !important;
+}
+
+.rating-progress {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.progress-bar {
+  height: 15px;
+  margin-bottom: 22px;
+  background-color: #ebebeb;
+  border-radius: 4px;
+  box-shadow: none;
+  width: 100%;
+  position: relative;
+}
+
+.animated-bar {
+  background-color: #f4bf00;
+  box-shadow: none;
+  border-radius: 4px;   
+  height: 15px;
+
+  animation: progress-bar 2s;
+  animation-play-state: paused;
+}
+
+@keyframes progress-bar {
+  0% { width: 0; }
+}
+
+
+.animated-bar.bar1 {
+  background-color: #F26522;
+}
+
+.animated-bar.bar2 {
+  background-color: #FF0337;
+}
+
+.animated-bar.bar3 {
+  background-color: #B90162;
+}
+
+.animated-bar.bar4 {
+  background-color: #87C05E;
+}
+
+.animated-bar.bar5 {
+  background-color: #05AC80;
+}
+
+.animated-bar.bar6 {
+  background-color: #3C70B6;
+}
+
+.animated-bar.bar7 {
+  background-color: #873E95;
+}
+
+/* Portfolio section */
+.rounded-img {
+  border-radius: 25px;
+}
+
+.portfolio-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.portfolio-info a:hover {
+  color: #bb460d!important;
+}
+
+/* Detail Portfolio Style */
+.portpolio-image {
+  max-width: 100%;
+  border: 1px solid rgb(229,229,229);
+}
+
+/* Resume Section */
+.li-dash {
+  list-style-type: none;
+}
+
+/* Contact Section */
+.contact-section h3 {
+  font-size: 40px;
+  font-weight: normal;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-section h4 {
+  font-size: 25px;
+  font-weight: normal;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.contact-section li {
+  padding: 20px 0px 20px 0px;
+}
+
+.address, .socials, .email {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.socials img {
+  margin: 0px;
+}
+
+.location {
+  list-style-image: url('../img/location.png');
+}
+
+.socialNetwork {
+  list-style-image: url('../img/social.png');
+}
+
+.socialNetwork a {
+  margin-right: 20px;
+}
+
+.contactMe {
+  list-style-image: url('../img/mail.png');
+}
+
+.contact-form {
+  margin-left : 10px;
+}
